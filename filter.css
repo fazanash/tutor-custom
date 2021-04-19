@@ -1,0 +1,8 @@
+@media (min-width:1200px) {
+    .tutor-course-filter-wrapper {
+        padding: 100px 50px;
+    }
+    .tutor-courses.tutor-courses-loop-wrap.tutor-courses-layout-2 .tutor-course-loop-title h2 {
+        line-height: 30px;
+    }
+}
