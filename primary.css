@@ -1,0 +1,361 @@
+@media (min-width:1200px) {
+    /* Start: Halaman Materi Kelas */
+        .tutor-single-page-top-bar {
+            background-color: #00308F;
+        }
+        .tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button i::before {
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button, .tutor-dashboard-builder-header-right button {
+            background-image: linear-gradient(to right top, #FAA321, #F5D34A);
+            border: none;
+            outline: none;
+            transition: 3s;
+            padding: 16px 24px;
+        }
+        .tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button:hover, .tutor-dashboard-builder-header-right button {
+            background-image: linear-gradient(to left bottom, #FAA321, #F5D34A);
+        }
+    /* End: Halaman Materi Kelas */
+}
+@media (min-width: 768px) {
+    /* Start: Halaman Arsip */
+        #mceu_28-body button {
+            background-color: transparent;
+        }
+        .tutor-course-search-field {
+            padding: 6px 10px !important;
+            background-color: transparent;
+        }
+        .tutor-course-filter-form select {
+            padding: 14px 10px !important;
+            background-color: transparent;
+        }
+        .tutor-course-search-field input {
+            background-color: transparent !important;
+        }
+        .tutor-course-filter-container input {
+            height: 16px;
+            width: 16px;
+        }
+        .tutor-col-3.tutor-dashboard-left-menu {
+            box-shadow: 0 0 10px 30px rgba(0,0,0,.05) !important;
+        }
+        .tutor-dashboard-content > h3, .tutor-dashboard-content > h2, .tutor-dashboard-content h4, .tutor-dashboard-content .quiz-attempts-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .tutor-courses.tutor-courses-loop-wrap .tutor-course-col-3 {
+            padding: 0 5px !important;
+        }
+        .tutor-courses.tutor-courses-loop-wrap .tutor-course-col-3 .tutor-loop-course-container, .tutor-courses.tutor-courses-loop-wrap .tutor-course-col-3 .tutor-loop-course-footer {
+            padding: 15px;
+        }
+        .tutor-courses.tutor-courses-loop-wrap .tutor-course-col-3 .tutor-loop-course-footer .tutor-course-loop-price .price {
+            display: flex;
+            justify-content: space-between;
+        }
+        .tutor-courses.tutor-courses-loop-wrap .tutor-course-loop-price .price .tutor-loop-cart-btn-wrap {
+            margin: 8px 0 0;
+        }
+        .tutor-courses.tutor-courses-loop-wrap .tutor-course-loop-price .price .tutor-loop-cart-btn-wrap a {
+            display: inline-block;
+            overflow: hidden;
+            text-indent: -9999px;
+        }
+        .tutor-courses.tutor-courses-loop-wrap .tutor-course-loop-price .price .tutor-loop-cart-btn-wrap a::before {
+            float: left;
+            margin: 0;
+            text-indent: 0;
+        }
+        .tutor-course.tutor-course-loop .tutor-loop-course-container .tutor-course-loop-meta {
+            display: none;
+        }
+        .tutor-course.tutor-course-loop .tutor-loop-course-container .tutor-course-loop-title h2 {
+            font-weight: 700;
+            font-size: 1.5rem !important;
+            line-height: 20px !important;
+        }
+        .tutor-course.tutor-course-loop .tutor-loop-course-container .tutor-course-loop-title h2 a:hover {
+            background-image: linear-gradient(45deg, #1C6AD8, #09A3EE);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+        .tutor-course-loop-header-meta span {
+            background-image: linear-gradient(45deg, #1C6AD8, #09A3EE);
+        }
+        .tutor-course.tutor-course-loop .tutor-loop-course-container .tutor-loop-author .tutor-course-lising-category {
+            display: none;
+        }
+        
+    /* End: Halaman Arsip */
+}
+@media (max-width: 768px) {
+	/* Start: Halaman Dashoard */
+		.tutor-dashboard-header-avatar img {
+			width: 80px;
+			height: 80px;
+		}
+		.tutor-dashboard-header-info {
+			padding-left: 16px;
+			font-size: 1rem;
+		}
+		.tutor-profile-completion-warning {
+			font-size: 1rem;
+		}
+		.tutor-col-3.tutor-dashboard-left-menu {
+			position: absolute;
+			display: none;
+		}
+		.tutor-dashboard-content {
+			border: none;
+			box-shadow: 0 0 10px 30px rgba(0,0,0,.01) !important;
+			padding: 0;
+			margin: 24px 0;
+		}
+		.tutor-dashboard-content > h3, .tutor-dashboard-content > h2, .tutor-dashboard-content h4, .tutor-dashboard-content .quiz-attempts-title {
+			font-size: 1.2rem;
+			font-weight: bold;
+		}
+		.profile-completion-warning-details ul {
+			padding: 0;
+		}
+		.withdraw-page-current-balance.new-announcement-wrap {
+			flex-direction: column;
+			padding: 16px;
+			align-items: flex-start;
+		}
+		.tutor-announcement-big-icon {
+			background-color: transparent;
+		}
+		.new-announcement-button {
+			margin: 16px 0 0 0;
+		}
+		.tutor-form-group .tutor-announcement-date-sorting {
+			padding: 24px !important;
+		}
+		.tutor-dashboard-profile-item .heading, .tutor-dashboard-profile-item .content p {
+			font-size: 1rem;
+			line-height: 25px;
+		}
+		/* Start: Tutor Course Content */
+		.tutor-mycourse-content h3 a {
+			font-size: 1.2rem;
+			font-weight: bold;
+			line-height: 30px;
+		}
+		.tutor-mycourse-content .tutor-meta.tutor-course-metadata ul {
+			display: flex;
+			flex-direction: column;
+		}
+		.tutor-mycourse-content .tutor-meta.tutor-course-metadata ul li {
+			margin-left: 0;
+			margin-top: 4px;
+			font-size: 1rem;
+		}
+		.mycourse-footer .tutor-mycourses-stats .woocommerce-Price-amount.amount {
+			font-weight: bold;
+		}
+		.tutor-dashboard-content-inner .mycourse-footer .tutor-mycourses-stats a {
+			margin-right: 32px;
+		}
+		/* End: Tutor Course Content */
+	
+		/* Start: Wishlist */
+		.tutor-course-loop-title h2 a {
+			font-weight: bold;
+			font-size: 1.5rem !important;
+			line-height: 21px;
+		}
+		/* End: Wishlist */
+	/* End: Halaman Dashboard */
+	
+	/* Start: Halaman Tambah Kelas */
+		.course-settings-tabs-container {
+			flex-direction: column;
+		}
+		.settings-tabs-navs-wrap {
+			flex-basis: 0 !important;
+		}
+		.settings-tabs-navs {
+			padding: 0;
+		}
+		.tutor-course-level-meta {
+			flex-wrap: wrap;
+		}
+	/* End: Halaman Tambah Kelas*/
+}
+@media (min-width:480px) {
+    /* START: DASHBOARD */
+        /* Start: Main Wrapper */
+        .tutor-wrap.tutor-dashboard.tutor-dashboard-student {
+            padding: 100px 0;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        /* End: Main Wrapper */
+    /* END: DASHBOARD */
+}
+@media (min-width: 360px) {
+	/* START: DASHBOARD */
+		/* Start: Main Wrapper */
+		.tutor-wrap.tutor-dashboard.tutor-dashboard-student {
+			padding: 50px 0;
+		}
+		/* End: Main Wrapper */
+		/* Start: Header Section */
+		.tutor-btn.bordered-btn {
+			border-radius: 50px !important;
+			border: none !important;
+			outline: none !important;
+			background-image: linear-gradient(45deg, #01B9F6, #205BD2);
+			color: white !important;
+			text-transform: Capitalize !important;
+			padding: 16px 24px;
+		}
+		/* End: Header Section */
+
+		/* Start: Sidebar */
+		.tutor-dashboard-permalinks {
+			border: none;
+			box-shadow: 0 0 10px 30px rgba(0,0,0,.01) !important;
+			padding: 0;
+			margin: 24px 0;
+		}
+		.tutor-dashboard-permalinks a, .tutor-dashboard-permalinks a::before {
+			color: #bbbbbb;
+		}
+		.tutor-dashboard-permalinks a:hover, .tutor-dashboard-permalinks a:hover::before {
+			background-image: linear-gradient(45deg, #01B9F6, #205BD2);
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+		}
+		.tutor-dashboard-permalinks .active a {
+			background-image: linear-gradient(45deg, #01B9F6, #205BD2) !important;
+			background-clip: padding-box;
+			-webkit-background-clip: padding-box;
+		}
+		.tutor-dashboard-permalinks .active:hover a {
+			background-image: linear-gradient(90deg, #01B9F6, #205BD2) !important;
+		}
+
+		/* End: Sidebar */
+
+		/* Start: Content Main Dashboard */
+		.tutor-dashboard-info-card p {
+			background-image: linear-gradient(to right top, #FAA321, #F5D34A) !important;
+		}
+		.tutor-course-loop-header-meta span {
+			background-image: linear-gradient(45deg, #1C6AD8, #09A3EE);
+			padding: 4px 12px;
+			font-size: .8rem;
+			line-height: 25px !important;
+			border-radius: 2px;
+		}
+		/* End: Content Main Dashboard*/
+
+		/* Start: Pengumuman */
+		.new-announcement-button button {
+			border-radius: 50px !important;
+			border: none !important;
+			outline: none !important;
+			background-image: linear-gradient(45deg, #01B9F6, #205BD2);
+			color: white !important;
+			text-transform: Capitalize !important;
+			padding: 16px 24px;
+		}
+		/* End: Pengumuman */
+
+		/* Start: Earnings */
+		.report-top-sub-menu a, .report-date-range-form input {
+			padding: 8px 16px !important;
+			margin: 8px;
+			border-radius: 8px !important;
+			background-color: #efefef;
+			color: #aaaeb3;
+			border: none !important;
+		}
+		.report-top-sub-menu a.active {
+			background-image: linear-gradient(45deg, #01B9F6, #205BD2);
+			border: none;
+		}
+		.report-top-sub-menu a:hover {
+			background-image: linear-gradient(45deg, #01B9F6, #205BD2);
+			color: white;
+		}
+		.report-date-range-form i {
+			top: 30% !important;
+		}
+		.date-range-input {
+			margin: 8px;
+		}
+		.date-range-input button {
+			padding: 8px 16px;
+			background-image: linear-gradient(45deg, #01B9F6, #205BD2);
+			border-radius: 8px !important;
+		}
+		/* End: Earnings */
+	/* END: DASHBOARD */
+	
+	/* START: HALAMAN TAMBAH KELAS DAN HALAMAN MATERI */
+		/* Start: Halaman Materi Kelas dan Tambah Kelas*/
+			.tutor-dashboard-builder-header {
+				position: -webkit-sticky; /* Safari */
+				position: sticky;
+				top: 0;
+			}
+			.tutor-dashboard-builder-header .tutor-button {
+				padding: 8px 12px;
+			}
+			.tutor-dashboard-builder-header .tutor-dashboard-builder-header-right a {
+				padding: 0 16px;
+			}
+			.tutor-profile-completion-warning {
+				border: 1px solid #ec8e8e;
+				background-color: #f1d2d2;
+				padding: 20px;
+				border-radius: 8px;
+			}
+			/* MCE Khusus di Tambah Kelas */
+			.mce-btn button {
+				background-color: transparent;
+			}
+			.tutor-single-page-top-bar {
+				background-color: #00308F;
+			}
+			.tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button i::before {
+				display: inline-block;
+				margin-right: 8px;
+			}
+			.tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button, .tutor-dashboard-builder-header-right button {
+				background-image: linear-gradient(to right top, #FAA321, #F5D34A);
+				border: none;
+				outline: none;
+				transition: 3s;
+				padding: 16px 24px;
+			}
+			.tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button:hover, .tutor-dashboard-builder-header-right button {
+				background-image: linear-gradient(to left bottom, #FAA321, #F5D34A);
+			}
+			.tutor-form-group span.tutor-input-prepand {
+				line-height: 25px;
+			}
+			.tutor-course-builder-btn-group > button, #tutor-add-topic-btn {
+				border-radius: 50px !important;
+				border: none !important;
+				outline: none !important;
+				background-image: linear-gradient(45deg, #01B9F6, #205BD2);
+				color: white !important;
+				text-transform: Capitalize !important;
+				padding: 16px 24px;
+				margin-bottom: 8px;
+			}
+			.tutor-course-builder-upload-tips li, .tutor-course-builder-section .course-empty-content {
+				font-size: 1rem;
+				line-height: 25px;
+			}
+		/* End: Halaman Materi Kelas dan Tambah Kelas */
+	/* END: HALAMAN TAMBAH KELA DAN HALAMAN MATERI */
+        }
