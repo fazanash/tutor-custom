@@ -44,6 +44,7 @@
 		width: 15vw;
 	}
 }
+
 @media (min-width:360px) {
 	.tutor-course-filter-wrapper .tutor-course-filter-container>div>div {
 		width: 100% !important;
